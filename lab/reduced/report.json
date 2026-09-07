@@ -1,0 +1,3057 @@
+{
+  "doc": {
+    "height": 11430,
+    "vh": 900,
+    "acts": [],
+    "world": {
+      "seam": 0.2,
+      "segs": [
+        {
+          "w": 2.34,
+          "linger": 0,
+          "label": "Core"
+        },
+        {
+          "w": 2.34,
+          "linger": 0,
+          "label": "Architecture"
+        },
+        {
+          "w": 2.34,
+          "linger": 0,
+          "label": "Craft"
+        },
+        {
+          "w": 4.68,
+          "linger": 0,
+          "label": "Ignition"
+        }
+      ]
+    }
+  },
+  "report": [
+    {
+      "i": 0,
+      "y": 0,
+      "pct": 0,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "An engine for one aircraft. AEVORA devel",
+          "dir": "light-on-dark",
+          "worst": 8.18,
+          "mean": 15.89
+        }
+      ],
+      "cues": [
+        {
+          "t": "An engine for one aircraft. AEVORA develops be",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 0,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 1,
+      "y": 42,
+      "pct": 0,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "An engine for one aircraft. AEVORA devel",
+          "dir": "light-on-dark",
+          "worst": 8.18,
+          "mean": 15.89
+        }
+      ],
+      "cues": [
+        {
+          "t": "An engine for one aircraft. AEVORA develops be",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 0,
+      "segp": 0.0199,
+      "bg": "#070809"
+    },
+    {
+      "i": 2,
+      "y": 446,
+      "pct": 4,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "An engine for one aircraft. AEVORA devel",
+          "dir": "light-on-dark",
+          "worst": 8.18,
+          "mean": 15.89
+        }
+      ],
+      "cues": [
+        {
+          "t": "An engine for one aircraft. AEVORA develops be",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 0,
+      "segp": 0.2118,
+      "bg": "#070809"
+    },
+    {
+      "i": 3,
+      "y": 851,
+      "pct": 8,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "An engine for one aircraft. AEVORA develops be",
+          "o": 0.55
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 0,
+      "segp": 0.4041,
+      "bg": "#070809"
+    },
+    {
+      "i": 4,
+      "y": 1255,
+      "pct": 12,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 0,
+      "segp": 0.5959,
+      "bg": "#070809"
+    },
+    {
+      "i": 5,
+      "y": 1660,
+      "pct": 16,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 0.73
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 0,
+      "segp": 0.7882,
+      "bg": "#070809"
+    },
+    {
+      "i": 6,
+      "y": 2016,
+      "pct": 19,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Nobody selects this from a catalogue. A ",
+          "dir": "light-on-dark",
+          "worst": 4.97,
+          "mean": 15.66
+        }
+      ],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 7,
+      "y": 2064,
+      "pct": 20,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Nobody selects this from a catalogue. A ",
+          "dir": "light-on-dark",
+          "worst": 5.55,
+          "mean": 15.7
+        }
+      ],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0.175,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 8,
+      "y": 2070,
+      "pct": 20,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Nobody selects this from a catalogue. A ",
+          "dir": "light-on-dark",
+          "worst": 5.72,
+          "mean": 15.72
+        }
+      ],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0.216,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 9,
+      "y": 2142,
+      "pct": 20,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Nobody selects this from a catalogue. A ",
+          "dir": "light-on-dark",
+          "worst": 7.85,
+          "mean": 15.76
+        }
+      ],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0.784,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0.0171,
+      "bg": "#070809"
+    },
+    {
+      "i": 10,
+      "y": 2148,
+      "pct": 20,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Nobody selects this from a catalogue. A ",
+          "dir": "light-on-dark",
+          "worst": 7.88,
+          "mean": 15.75
+        }
+      ],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0.825,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0.0199,
+      "bg": "#070809"
+    },
+    {
+      "i": 11,
+      "y": 2196,
+      "pct": 21,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Nobody selects this from a catalogue. A ",
+          "dir": "light-on-dark",
+          "worst": 8.35,
+          "mean": 15.74
+        }
+      ],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0.0427,
+      "bg": "#070809"
+    },
+    {
+      "i": 12,
+      "y": 2552,
+      "pct": 24,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Nobody selects this from a catalogue. A progra",
+          "o": 0.73
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0.2118,
+      "bg": "#070809"
+    },
+    {
+      "i": 13,
+      "y": 2957,
+      "pct": 28,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0.4041,
+      "bg": "#070809"
+    },
+    {
+      "i": 14,
+      "y": 3361,
+      "pct": 32,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 0.84
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0.5959,
+      "bg": "#070809"
+    },
+    {
+      "i": 15,
+      "y": 3766,
+      "pct": 36,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Compressor, combustion, turbine, control",
+          "dir": "light-on-dark",
+          "worst": 5.38,
+          "mean": 15.44
+        }
+      ],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 1,
+      "segp": 0.7882,
+      "bg": "#070809"
+    },
+    {
+      "i": 16,
+      "y": 4122,
+      "pct": 39,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 0.82
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 17,
+      "y": 4170,
+      "pct": 40,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 0.67
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0.175,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 18,
+      "y": 4176,
+      "pct": 40,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 0.65
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0.216,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 19,
+      "y": 4248,
+      "pct": 40,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 0.39
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0.784,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0.0171,
+      "bg": "#070809"
+    },
+    {
+      "i": 20,
+      "y": 4254,
+      "pct": 40,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 0.37
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0.825,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0.0199,
+      "bg": "#070809"
+    },
+    {
+      "i": 21,
+      "y": 4302,
+      "pct": 41,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "Compressor, combustion, turbine, control. One ",
+          "o": 0.21
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0.0427,
+      "bg": "#070809"
+    },
+    {
+      "i": 22,
+      "y": 4658,
+      "pct": 44,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0.2118,
+      "bg": "#070809"
+    },
+    {
+      "i": 23,
+      "y": 5063,
+      "pct": 48,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Inside, where the tolerances live. Alloy",
+          "dir": "light-on-dark",
+          "worst": 9.32,
+          "mean": 16.62
+        }
+      ],
+      "cues": [
+        {
+          "t": "Inside, where the tolerances live. Alloy selec",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0.4041,
+      "bg": "#070809"
+    },
+    {
+      "i": 24,
+      "y": 5467,
+      "pct": 52,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "Inside, where the tolerances live. Alloy",
+          "dir": "light-on-dark",
+          "worst": 8.89,
+          "mean": 16.52
+        }
+      ],
+      "cues": [
+        {
+          "t": "Inside, where the tolerances live. Alloy selec",
+          "o": 0.91
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0.5959,
+      "bg": "#070809"
+    },
+    {
+      "i": 25,
+      "y": 5872,
+      "pct": 56,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 2,
+      "segp": 0.7882,
+      "bg": "#070809"
+    },
+    {
+      "i": 26,
+      "y": 6228,
+      "pct": 59,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 27,
+      "y": 6276,
+      "pct": 60,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0.175,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 28,
+      "y": 6282,
+      "pct": 60,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0.216,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0,
+      "bg": "#070809"
+    },
+    {
+      "i": 29,
+      "y": 6354,
+      "pct": 60,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0.784,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.0085,
+      "bg": "#070809"
+    },
+    {
+      "i": 30,
+      "y": 6402,
+      "pct": 61,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 0.997,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.0199,
+      "bg": "#070809"
+    },
+    {
+      "i": 31,
+      "y": 6408,
+      "pct": 61,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.0214,
+      "bg": "#070809"
+    },
+    {
+      "i": 32,
+      "y": 7211,
+      "pct": 68,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "You will be in the cell for this one.",
+          "dir": "light-on-dark",
+          "worst": 10.21,
+          "mean": 15.68
+        }
+      ],
+      "cues": [
+        {
+          "t": "You will be in the cell for this one.",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.212,
+      "bg": "#070809"
+    },
+    {
+      "i": 33,
+      "y": 8020,
+      "pct": 76,
+      "settled": true,
+      "contrast": [],
+      "cues": [],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.4041,
+      "bg": "#070809"
+    },
+    {
+      "i": 34,
+      "y": 8828,
+      "pct": 84,
+      "settled": true,
+      "contrast": [],
+      "cues": [
+        {
+          "t": "From first layout to first run, then through t",
+          "o": 0.64
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.5959,
+      "bg": "#070809"
+    },
+    {
+      "i": 35,
+      "y": 9637,
+      "pct": 92,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "From first layout to first run, then thr",
+          "dir": "light-on-dark",
+          "worst": 6.51,
+          "mean": 14.82
+        }
+      ],
+      "cues": [
+        {
+          "t": "From first layout to first run, then through t",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.788,
+      "bg": "#070809"
+    },
+    {
+      "i": 36,
+      "y": 10446,
+      "pct": 99,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "From first layout to first run, then thr",
+          "dir": "light-on-dark",
+          "worst": 6.51,
+          "mean": 14.82
+        }
+      ],
+      "cues": [
+        {
+          "t": "From first layout to first run, then through t",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 0.9801,
+      "bg": "#070809"
+    },
+    {
+      "i": 37,
+      "y": 10530,
+      "pct": 100,
+      "settled": true,
+      "contrast": [
+        {
+          "t": "From first layout to first run, then thr",
+          "dir": "light-on-dark",
+          "worst": 6.51,
+          "mean": 14.82
+        }
+      ],
+      "cues": [
+        {
+          "t": "From first layout to first run, then through t",
+          "o": 1
+        }
+      ],
+      "clips": [
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        },
+        {
+          "painted": false,
+          "t": 0,
+          "dur": 0,
+          "vis": 1
+        }
+      ],
+      "rails": [],
+      "wipes": [],
+      "act": "-",
+      "stages": [],
+      "segs": [
+        {
+          "i": 0,
+          "label": "Core",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 1,
+          "label": "Architecture",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 2,
+          "label": "Craft",
+          "op": 0,
+          "painted": false,
+          "t": 0
+        },
+        {
+          "i": 3,
+          "label": "Ignition",
+          "op": 1,
+          "painted": false,
+          "t": 0
+        }
+      ],
+      "custom": [],
+      "customHold": false,
+      "seg": 3,
+      "segp": 1,
+      "bg": "#070809"
+    }
+  ],
+  "consoleErrors": [],
+  "failed": []
+}

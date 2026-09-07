@@ -1,0 +1,396 @@
+/* AEVORA Propulsion.
+   Token overrides plus the page's own layers: atmosphere, near foreground,
+   windowed scrims, and the axial cutaway rail. The engine files are untouched. */
+
+:root {
+  --sc-canvas:     #070809;
+  --sc-surface:    #0E1114;
+  --sc-ink:        #E9EEF3;
+  --sc-ink-soft:   #97A2AC;
+  --sc-accent:     #E2673A;
+  --sc-accent-ink: #070809;
+
+  --sc-font-display: "Archivo", "Helvetica Neue", system-ui, sans-serif;
+  --sc-font-text:    "Geist", "Helvetica Neue", system-ui, sans-serif;
+  --sc-font-mono:    "Geist Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --aev-rail-h: 108px;
+  --aev-hair:   color-mix(in oklab, var(--sc-ink) 34%, transparent);
+}
+
+/* Light on dark wants a little more leading, tracking and weight. */
+body { font-weight: 400; }
+.sc-body { letter-spacing: 0.004em; line-height: 1.68; }
+
+/* ---------------------------------------------------------------- chrome -- */
+
+.aev-skip {
+  position: fixed; top: var(--sc-3); left: var(--sc-3); z-index: 200;
+  transform: translateY(-200%);
+  background: var(--sc-accent); color: var(--sc-accent-ink);
+  padding: var(--sc-2) var(--sc-4); border-radius: var(--sc-r-sm);
+  font: 500 var(--sc-t-sm)/1 var(--sc-font-text); text-decoration: none;
+}
+.aev-skip:focus-visible { transform: none; }
+
+.aev-mark {
+  position: fixed; top: clamp(1.1rem, 3vh, 2.1rem); left: var(--sc-gutter);
+  z-index: 70; display: flex; align-items: baseline; gap: 0.55rem;
+  pointer-events: none;
+}
+.aev-mark__name {
+  font-family: var(--sc-font-display); font-weight: 700;
+  font-size: var(--sc-t-sm); letter-spacing: 0.26em; text-transform: uppercase;
+  color: var(--sc-ink);
+}
+.aev-mark__sub {
+  font-family: var(--sc-font-mono); font-size: var(--sc-t-xs);
+  letter-spacing: 0.14em; color: var(--sc-ink-soft);
+}
+
+/* ------------------------------------------------------------ atmosphere -- */
+/* Four planes over the film, each moving at its own rate. Purely additive:
+   the composition is complete with every one of them stopped. */
+
+.aev-haze, .aev-shaft, .aev-dust, .aev-vign {
+  position: absolute; inset: -12% -8%; pointer-events: none; z-index: 0;
+  will-change: transform;
+}
+
+.aev-haze {
+  background:
+    radial-gradient(58vw 46vw at 18% 12%,
+      color-mix(in oklab, #C9DCEA 15%, transparent), transparent 62%);
+  transform: translate3d(var(--aev-haze-x, 0px), var(--aev-haze-y, 0px), 0);
+}
+
+.aev-shaft {
+  background:
+    linear-gradient(104deg, transparent 30%,
+      color-mix(in oklab, #DCE9F4 7%, transparent) 40%,
+      color-mix(in oklab, #DCE9F4 2%, transparent) 49%, transparent 58%);
+  transform: translate3d(var(--aev-shaft-x, 0px), 0, 0);
+}
+
+.aev-dust {
+  opacity: 0.5;
+  background-image:
+    radial-gradient(1.4px 1.4px at 12% 28%, color-mix(in oklab, #E9EEF3 42%, transparent), transparent),
+    radial-gradient(1.1px 1.1px at 34% 71%, color-mix(in oklab, #E9EEF3 34%, transparent), transparent),
+    radial-gradient(1.7px 1.7px at 58% 18%, color-mix(in oklab, #E9EEF3 30%, transparent), transparent),
+    radial-gradient(1.2px 1.2px at 77% 62%, color-mix(in oklab, #E9EEF3 38%, transparent), transparent),
+    radial-gradient(1.5px 1.5px at 89% 34%, color-mix(in oklab, #E9EEF3 28%, transparent), transparent),
+    radial-gradient(1.1px 1.1px at 46% 88%, color-mix(in oklab, #E9EEF3 32%, transparent), transparent);
+  transform: translate3d(var(--aev-dust-x, 0px), var(--aev-dust-y, 0px), 0);
+}
+
+.aev-vign {
+  background: radial-gradient(120% 96% at 50% 46%, transparent 44%,
+    color-mix(in oklab, var(--sc-canvas) 74%, transparent) 100%);
+}
+
+/* ----------------------------------------------------------------- scrim -- */
+/* Not a child of the copy it protects, and not a [data-sc-copy], so the
+   verification pass photographs the frame WITH the scrim on it. Oversized so
+   the copy layer's own translate can never expose an edge. */
+
+.aev-scrim {
+  position: absolute; inset: -8vh -4vw; z-index: 1;
+  opacity: 0; pointer-events: none;
+}
+.aev-scrim--lead {
+  /* A column of density under the text column plus a bottom band, rather than
+     one corner wash. The photograph keeps its contrast everywhere the copy
+     is not. */
+  background:
+    linear-gradient(to top,
+      color-mix(in oklab, var(--sc-canvas) 88%, transparent) 0%,
+      color-mix(in oklab, var(--sc-canvas) 60%, transparent) 22%,
+      color-mix(in oklab, var(--sc-canvas) 18%, transparent) 40%,
+      transparent 56%),
+    linear-gradient(to right,
+      color-mix(in oklab, var(--sc-canvas) 74%, transparent) 0%,
+      color-mix(in oklab, var(--sc-canvas) 52%, transparent) 30%,
+      color-mix(in oklab, var(--sc-canvas) 14%, transparent) 50%,
+      transparent 66%);
+}
+.aev-scrim--trail {
+  background:
+    linear-gradient(to top,
+      color-mix(in oklab, var(--sc-canvas) 88%, transparent) 0%,
+      color-mix(in oklab, var(--sc-canvas) 60%, transparent) 22%,
+      color-mix(in oklab, var(--sc-canvas) 18%, transparent) 40%,
+      transparent 56%),
+    linear-gradient(to left,
+      color-mix(in oklab, var(--sc-canvas) 74%, transparent) 0%,
+      color-mix(in oklab, var(--sc-canvas) 52%, transparent) 30%,
+      color-mix(in oklab, var(--sc-canvas) 14%, transparent) 50%,
+      transparent 66%);
+}
+.aev-scrim--left {
+  background: linear-gradient(90deg,
+    color-mix(in oklab, var(--sc-canvas) 93%, transparent) 0%,
+    color-mix(in oklab, var(--sc-canvas) 72%, transparent) 30%,
+    color-mix(in oklab, var(--sc-canvas) 20%, transparent) 56%,
+    transparent 74%);
+}
+.aev-scrim--band {
+  /* The close is centred copy over a running engine. A bottom band buried the
+     plume, which is the payoff the whole page was built toward, so the density
+     is centred on the type and the frame keeps its fire. */
+  background:
+    radial-gradient(64% 46% at 52% 50%,
+      color-mix(in oklab, var(--sc-canvas) 78%, transparent) 0%,
+      color-mix(in oklab, var(--sc-canvas) 62%, transparent) 46%,
+      color-mix(in oklab, var(--sc-canvas) 22%, transparent) 74%,
+      transparent 92%),
+    linear-gradient(180deg,
+      color-mix(in oklab, var(--sc-canvas) 34%, transparent) 0%,
+      transparent 28%);
+}
+
+/* ------------------------------------------------------------------ copy -- */
+
+.aev-copy { max-width: min(40rem, 52vw); }
+.aev-copy--hero { max-width: min(32rem, 44vw); }
+.aev-copy > * + * { margin-top: var(--sc-4); }
+.aev-copy > :is(h1, h2) + p { margin-top: var(--sc-4); }
+.aev-copy p + a { margin-top: var(--sc-6); display: inline-flex; }
+.aev-copy h2 { margin: 0; }
+
+/* The rail owns the bottom of the frame, so copy clears it. */
+.sc-copy--lead, .sc-copy--trail {
+  bottom: calc(var(--aev-rail-h) + clamp(1.5rem, 6vh, 4.5rem));
+}
+
+.aev-copy--midleft {
+  inset-inline: auto; left: var(--sc-gutter);
+  top: 50%; translate: 0 -50%; bottom: auto;
+  max-width: min(38rem, 52vw);
+}
+
+.aev-copy--line { max-width: min(34rem, 56vw); }
+.aev-line {
+  font-family: var(--sc-font-display); font-weight: 500;
+  font-size: var(--sc-t-xl); line-height: 1.14;
+  letter-spacing: var(--sc-track-snug);
+  color: var(--sc-ink); margin: 0; text-wrap: balance;
+}
+
+.aev-copy--close {
+  inset-inline: var(--sc-gutter);
+  left: 50%; right: auto; translate: -50% -50%;
+  bottom: auto; top: 50%;
+  transform-origin: 50% 50%;
+  max-width: min(52rem, 82vw);
+  text-align: center;
+}
+.aev-copy--close .sc-body { margin-inline: auto; }
+.aev-copy--close h2 { text-wrap: balance; }
+
+.aev-lede { color: var(--sc-ink); font-size: var(--sc-t-lg); line-height: 1.44; }
+
+.aev-fine {
+  margin-top: var(--sc-6);
+  font-family: var(--sc-font-mono); font-size: var(--sc-t-xs);
+  line-height: 1.65; letter-spacing: 0.02em;
+  color: color-mix(in oklab, var(--sc-ink-soft) 82%, var(--sc-canvas));
+  max-width: 58ch; margin-inline: auto; text-wrap: balance;
+}
+
+/* ------------------------------------------------------------------- cta -- */
+
+.aev-cta {
+  display: inline-flex; align-items: center; gap: 0.7rem;
+  padding: 0.82rem 1.35rem;
+  background: var(--sc-accent); color: var(--sc-accent-ink);
+  font: 600 var(--sc-t-sm)/1 var(--sc-font-display);
+  letter-spacing: 0.02em; text-decoration: none; white-space: nowrap;
+  border-radius: var(--sc-r-sm);
+  box-shadow: 0 1px 2px hsl(var(--sc-shadow-color) / 0.4),
+              0 10px 26px -10px hsl(var(--sc-shadow-color) / 0.55);
+  transition: background var(--sc-d-fast) var(--sc-ease-out),
+              transform var(--sc-d-fast) var(--sc-ease-out);
+}
+.aev-cta::after {
+  content: ""; width: 1.4rem; height: 1px;
+  background: currentColor; opacity: 0.75;
+  transition: width var(--sc-d-base) var(--sc-ease-out);
+}
+@media (hover: hover) and (pointer: fine) {
+  .aev-cta:hover { background: color-mix(in oklab, var(--sc-accent) 88%, #FFFFFF); }
+  .aev-cta:hover::after { width: 2.1rem; }
+}
+.aev-cta:active { transform: translateY(1px); }
+.aev-cta--close { margin-top: var(--sc-6); }
+
+/* ------------------------------------------------------------------ rail -- */
+/* The signature move. A longitudinal cutaway that assembles itself stage by
+   stage, doubles as the map, follows the camera inside on the Craft leg, and
+   lifts to hold the commission action at the close. */
+
+.aev-rail {
+  position: fixed; z-index: 60;
+  left: 0; right: 0; bottom: 0;
+  height: var(--aev-rail-h);
+  transform-origin: 50% 50%;
+  transition: transform 900ms var(--sc-ease-out), opacity 600ms var(--sc-ease-out);
+  pointer-events: none;
+}
+.aev-rail__svg {
+  position: absolute; left: var(--sc-gutter); right: var(--sc-gutter);
+  bottom: 26px; height: auto;   /* 16:1 intrinsic ratio from the viewBox */
+  overflow: visible;
+}
+.aev-rail__svg * { fill: none; }
+
+.aev-axis {
+  stroke: color-mix(in oklab, var(--sc-ink) 16%, transparent);
+  stroke-width: 1; stroke-dasharray: 3 7;
+}
+.aev-stage path, .aev-stage circle {
+  stroke: var(--aev-hair); stroke-width: 1;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.aev-stage[data-current] path, .aev-stage[data-current] circle { stroke: var(--sc-accent); }
+.aev-marker line { stroke: var(--sc-accent); stroke-width: 1; opacity: 0.85; }
+.aev-marker path  { fill: var(--sc-accent); stroke: none; }
+
+.aev-stops {
+  position: absolute; inset: auto 0 0 0;
+  height: 26px; margin: 0; padding: 0; list-style: none;
+  pointer-events: none;
+  transition: opacity 420ms var(--sc-ease-out);
+}
+/* Stops are placed from each stage group's measured extent, so a label always
+   sits under the part of the section it names, at any viewport. */
+.aev-stops li {
+  position: absolute; bottom: 0; left: 0;
+  transform: translateX(-50%);
+  pointer-events: auto;
+}
+.aev-stops button {
+  appearance: none; background: none; border: 0; cursor: pointer;
+  min-height: 26px; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  font: 400 var(--sc-t-xs)/1 var(--sc-font-mono);
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: color-mix(in oklab, var(--sc-ink-soft) 88%, var(--sc-canvas));
+  transition: color var(--sc-d-fast) var(--sc-ease-out);
+}
+.aev-stops button span {
+  padding: 0.35rem 0.55rem; border-top: 1px solid transparent;
+}
+.aev-stops button[aria-current="true"] { color: var(--sc-accent); }
+.aev-stops button[aria-current="true"] span { border-top-color: var(--sc-accent); }
+@media (hover: hover) and (pointer: fine) {
+  .aev-stops button:hover { color: var(--sc-ink); }
+}
+.aev-stops button:focus-visible { outline: 2px solid var(--sc-accent); outline-offset: -3px; }
+
+/* Craft leg: the map goes where the camera goes, so the stops step back. */
+.aev-rail[data-zoom="1"] .aev-stops { opacity: 0.22; }
+
+/* The close: the finished section lifts and holds the action. */
+.aev-rail[data-close="1"] {
+  /* The finished section lifts off the bottom edge and settles on the closing
+     action, whole, at a scale where the silhouette still reads. */
+  transform: translateY(-35vh) scale(1.25);
+}
+.aev-rail[data-close="1"] .aev-stops { opacity: 0; pointer-events: none; }
+.aev-rail[data-close="1"] .aev-stage path,
+.aev-rail[data-close="1"] .aev-stage circle {
+  stroke: color-mix(in oklab, var(--sc-accent) 72%, transparent);
+}
+.aev-rail[data-close="1"] .aev-marker { opacity: 0.5; }
+.aev-rail[data-close="1"] .aev-axis { stroke: color-mix(in oklab, var(--sc-ink) 9%, transparent); }
+
+/* ---------------------------------------------------------------- mobile -- */
+
+@media (max-width: 860px) {
+  :root { --aev-rail-h: 84px; }
+
+  /* Art direction, not a shrink. A 16:9 frame cover-cropped into a 390x844
+     viewport shows about a quarter of its width, and the engine stops being
+     legible as an engine, which is the one thing this page is about. The phone
+     therefore gets a different composition: the film is a full-width band in
+     the upper screen, whole, and the copy holds the lower screen on the page
+     ground with the section rail beneath it. */
+  .sc-world__seg > video,
+  .sc-world__seg > .sc-world__poster {
+    object-fit: contain;
+    object-position: 50% 15%;
+  }
+
+  /* Copy sits directly under the band rather than against the bottom edge, so
+     the film and the type read as one column instead of two far-apart things. */
+  .aev-copy { max-width: none; }
+  .sc-copy--lead, .sc-copy--trail, .aev-copy--midleft {
+    top: 44%; bottom: auto; left: var(--sc-gutter); right: var(--sc-gutter);
+    inset-inline: var(--sc-gutter); translate: none; max-width: none;
+  }
+  .aev-copy--close {
+    max-width: none; inset-inline: var(--sc-gutter);
+    left: auto; right: auto; top: 38%; translate: none; bottom: auto;
+    text-align: left;
+  }
+  .aev-copy--close .sc-body, .aev-fine { margin-inline: 0; }
+  .sc-copy--trail { text-align: left; }
+  .aev-copy--hero h1 { font-size: var(--sc-t-2xl); }
+  .aev-lede { font-size: var(--sc-t-base); }
+  .aev-line { font-size: var(--sc-t-lg); }
+
+  /* The copy sits on the page ground below the band, so the scrim only has to
+     soften the join rather than carry the type. */
+  .aev-scrim--lead, .aev-scrim--trail, .aev-scrim--left {
+    background: linear-gradient(180deg,
+      transparent 0%,
+      transparent 44%,
+      color-mix(in oklab, var(--sc-canvas) 46%, transparent) 58%,
+      color-mix(in oklab, var(--sc-canvas) 72%, transparent) 100%);
+  }
+  .aev-scrim--band {
+    background: linear-gradient(180deg,
+      transparent 0%,
+      transparent 40%,
+      color-mix(in oklab, var(--sc-canvas) 52%, transparent) 56%,
+      color-mix(in oklab, var(--sc-canvas) 74%, transparent) 100%);
+  }
+  .aev-vign {
+    background: linear-gradient(180deg, transparent 30%,
+      color-mix(in oklab, var(--sc-canvas) 30%, transparent) 100%);
+  }
+
+  .aev-stops button { font-size: 0.7rem; letter-spacing: 0.08em; }
+  .aev-stops button span { padding: 0.5rem 0.35rem; }
+  .aev-rail[data-close="1"] { transform: translateY(-32vh) scale(1.1); }
+  .aev-shaft { display: none; }
+}
+
+@media (max-width: 400px) {
+  .aev-stops button { font-size: 0.62rem; letter-spacing: 0.04em; }
+}
+
+/* Short phones: the close carries four elements, and at 640px tall they do not
+   all fit at the sizes a taller phone gets. Step the type down rather than let
+   the fine print slide under the rail. */
+@media (max-width: 860px) and (max-height: 760px) {
+  .sc-world__seg > video,
+  .sc-world__seg > .sc-world__poster { object-position: 50% 8%; }
+  .sc-copy--lead, .sc-copy--trail, .aev-copy--midleft { top: 38%; }
+  .aev-copy--close { top: 33%; }
+  .aev-copy--close h2 { font-size: var(--sc-t-lg); }
+  .aev-copy--close .sc-body { font-size: var(--sc-t-sm); line-height: 1.55; }
+  .aev-copy > * + * { margin-top: var(--sc-3); }
+  .aev-copy p + a, .aev-cta--close { margin-top: var(--sc-5); }
+  .aev-fine { margin-top: var(--sc-4); line-height: 1.5; }
+}
+
+/* ------------------------------------------------------- reduced motion -- */
+
+@media (prefers-reduced-motion: reduce) {
+  .aev-haze, .aev-shaft, .aev-dust { transform: none !important; }
+  .aev-rail { transition: opacity 240ms linear; }
+  .aev-rail[data-close="1"] { transform: none; }
+  .aev-cta, .aev-cta::after, .aev-stops { transition: none; }
+}

@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+
+# The 156 per-frame verification screenshots, 507 MB of them. The contact
+# sheets in lab/*/sheet.png and docs/ show the same thing at a size a human
+# can actually look at. Regenerate with scroll-craft's shoot.mjs if needed.
+lab/shots/[0-9][0-9].png
+lab/mobile/[0-9][0-9].png
+lab/mobile-360/[0-9][0-9].png
+lab/reduced/[0-9][0-9].png

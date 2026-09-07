@@ -1,0 +1,14 @@
+{
+  "name": "aevora-propulsion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A scroll-driven concept site where a jet engine assembles under your hand, then ignites.",
+  "type": "module",
+  "scripts": {
+    "serve": "node -e \"import('node:http').then(async({default:h})=>{const fs=await import('node:fs');const p=await import('node:path');const T={'.html':'text/html','.css':'text/css','.js':'text/javascript','.mp4':'video/mp4','.webp':'image/webp','.png':'image/png','.json':'application/json'};h.createServer((q,s)=>{let f=p.join(process.cwd(),decodeURIComponent(q.url.split('?')[0]));if(f.endsWith(p.sep))f=p.join(f,'index.html');if(!fs.existsSync(f)||fs.statSync(f).isDirectory())f=p.join(process.cwd(),'index.html');s.writeHead(200,{'Content-Type':T[p.extname(f)]||'application/octet-stream'});fs.createReadStream(f).pipe(s)}).listen(4512,()=>console.log('http://localhost:4512'))})\"",
+    "assert": "node lab/aev-assert.mjs --url http://localhost:4512"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.47.0"
+  }
+}
