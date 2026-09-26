@@ -14,7 +14,7 @@ npm run serve        # static server on http://localhost:4512 (inline node http 
 npm run assert       # lab/aev-assert.mjs against localhost:4512, 19 assertions; needs `serve` running
 ```
 
-There is no lint, typecheck, or unit-test setup, and you can't run a single assertion on its own: `aev-assert.mjs` is one top-level script made of blocks (playhead, seams, copy transform cap, rail, reduced motion). The harness looks for a Chrome binary at hard-coded Windows, macOS, and `/usr/bin/google-chrome` paths. Otherwise it uses `SCROLLCRAFT_CHROME`, so in this container run `SCROLLCRAFT_CHROME=/opt/pw-browsers/chromium npm run assert` (point it at the actual executable if that path is a directory).
+There is no lint, typecheck, or unit-test setup, and you can't run a single assertion on its own: `aev-assert.mjs` is one top-level script made of blocks (playhead, seams, copy transform cap, rail, reduced motion). The harness looks for a Chrome binary at hard-coded Windows, macOS, and `/usr/bin/google-chrome` paths. Otherwise it uses `SCROLLCRAFT_CHROME`, so in this container run `SCROLLCRAFT_CHROME=/opt/pw-browsers/chromium npm run assert`.
 
 ## Architecture
 
